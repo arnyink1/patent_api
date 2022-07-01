@@ -1,0 +1,1 @@
+"""Module of kibernum test."""
