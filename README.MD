@@ -8,6 +8,7 @@ Kibernum API Service
 * Autentificación simple con variables definidas a traves de JSON Web Token (JWT). Usuario y contraseña = "username" , "password".
 * Integración para obtener identificador de placas vehiculares de cliente propio, instanciado desde la identity del JWT.
 * http://127.0.0.1:8000/docs#
+* https://github.com/arnyink1/patent_api
 
 ## Routes
 
