@@ -1,8 +1,10 @@
 from fastapi import FastAPI
+from app.routers import auth
 
 import uvicorn
 
 app = FastAPI()
+app.include_router(auth.router)
 
 
 
