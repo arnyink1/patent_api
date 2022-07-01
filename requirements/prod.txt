@@ -1,26 +1,7 @@
 # Everything needed in production
 
-# Flask
-Flask==1.1.2
-Werkzeug==1.0.1
-click>=7.0
-wheel
-
-# Rest
-Flask-RESTful==0.3.8
-
-# Auth
-Flask-Bcrypt==0.7.1
-Flask-JWT-Extended==3.25.0
-bcrypt==3.2.0 
-flask-bcrypt==0.7.1
-
-# Caching
-Flask-Caching>=1.7.2
-
-# Environment variable parsing
-environs==9.3.0
-
-# para leer archivo env
-python-dotenv==0.15.0
+fastapi
+uvicorn
+python-jose[cryptography]
+python-multipart
 
